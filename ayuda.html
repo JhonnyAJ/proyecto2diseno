@@ -1,0 +1,110 @@
+<html  lang="es">
+	
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="estilo.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Meetings</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Meetings</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mx-auto" style="width: 30%;">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" style="width: 20%; padding-right: 20px">Conócenos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="tarifa.html" style="width: 20%; padding-right: 20px">Tarifas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="integraciones.html" style="width: 20%; padding-right: 20px">Integraciones</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  active" href="#" style="width: 20%; padding-right: 20px">Ayuda</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link btn btn-outline-primary" href="http://proyecto1prograweb.epizy.com/" style="width: 100px; padding-right: 20px">Ingresar al sistema</a>
+      </li>
+    </ul>
+	<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Buscar">
+      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" style="color: white">Buscar</button>
+    </form>
+	
+  </div>
+</nav>
+
+  
+  <section class="container sectionSombreado">
+  
+  <section class="container" style="text-align: center">
+  <h5 class="tituloSeccion"><b>Ayuda para el sistema</b></h5>
+  <p>Esta pagina es un proyecto de universidad, por ende este texto tiene fines meramente ilustrativos para ejemplificar una seccion de ayuda para un sistema en donde
+  podria ir una seccion de preguntas frecuenntes e incluso un cajon de preguntas para dejar preguntas que no se encuentren en la lista de preguntas frecuentes. A continuacion se 
+  va a presentar texto meramente ilustrativo para ejemplificar preguntas y su respuesta.<br><br></p>
+
+  </section>
+  
+  <section>
+  <h3 class="tituloSeccion"><br>Mira nuestras preguntas frecuentes, de seguro te seran de mucha ayuda<br><br></h3>
+  <p>Con cada usuario que nos realiza preguntas, nuestro equipo las guarda para que sirvan a otros usuarios con dudas diferentes</p>
+	<button type="button" onclick="MostrarPreguntasSection()" class="btn btn-outline-primary">Consultar top preguntas</button>
+  </section>
+  <br>
+  <br>
+  <section class="sombreado" id="preguntas" style="display: none;">
+  
+  <br>
+  <form class="form-inline">
+      <input class="form-control col-md-10" type="search" placeholder="Introducir otra pregunta" aria-label="Buscar">
+      <button class="btn btn-outline-primary">Preguntar</button>
+    </form>
+  <br>
+  
+  <section>
+  <h4>1. Donde se puede pagar los servicios de Meetings<h4>
+  <p>Nuestros servicios se pueden paga desde cualquier entidad bancaria y desde sus plataformas virtuales de pago.</p>
+  </section>
+  <section>
+  <h4>2. Donde puedo ver las politicas y permisos de Meetings<h4>
+  <p>Desde nuestra pagina contamos con un apartado con toda esa informacion a un solo clic.</p>
+  </section>
+  <section>
+  <h4>3. Cuantas plataformas puedo tener conectadas a mis Meetings<h4>
+  <p>Varia entre los paquetes y promociones que hayas aprovechado de nosotros, miralo en nuestras promociones.</p>
+  </section>
+  <section>
+  <h4>4. Puedo exportar reuniones para manejarlas en alguna otra plataforma<h4>
+  <p>Meetings permite guardar sus proyectos con extension .mtn que pueden ser usados por cualquier otro usuario para manipular su propio proyecto.</p>
+  </section>
+  <section>
+  <h4>5. Cuantas veces se paga el servicio de Meetings<h4>
+  <p>Solamente se paga una vez desde que decides el paquete que se adapta a tus necesidades.</p>
+  </section>
+  
+  
+  </section>
+  
+  
+  
+  
+  
+
+</body>
+<script>
+function MostrarPreguntasSection(){
+	document.getElementById("preguntas").style.display = "block";
+}
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+</html>
