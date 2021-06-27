@@ -1,0 +1,35 @@
+.centrado{
+	padding-top:20px; padding-left: 8%; padding-right: 8%; padding-bottom: 8%;
+}
+
+.sectionSombreado{
+	background-color: #e0e0e0; padding-top: 20px; border-radius: 10px;
+}
+.tituloSeccion{
+	color: #3f51b5;
+	
+}
+.infomercial{
+	margin-top: 4%;
+	padding-bottom: 1%;
+	text-align: center;
+	background-color: #2196f3;
+	border-radius: 10px;
+	color:white;
+}
+.btn-infomercial{
+	color: white;
+	border-color: white
+}
+.piePagina{
+	background-color: #1071f7;
+	color: white;
+	height: 25%;
+	text-align: center;
+	display: center;
+    justify-content: center;
+    align-items: center;
+}
+.redesFooter{
+	padding: 40px
+}
